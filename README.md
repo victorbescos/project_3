@@ -31,10 +31,29 @@ Workflow:
     3. Make FourSquare requests for nearby points of interest (schools, bars, design companies and tech companies) for every neighbourhood
     4. Count and assign instances of points of interest within every neighbourhood. 
     5. Assign score for every neighbourhood based on availability of points of interest
-    6. Assess the top performing neighbourhoods overall
+    6. Assess the top performing neighbourhoods overall based on weighted average
     7. Visualization through folium
-
+<br>
 
 ## Results
 
-The following i
+The following map shows all the neighbourhoods in Barcelona based on the availability of points of interest. 
+
+![Folium Map](images/Choropleth.png)
+
+We can observe that the darker areas (the ones with most availability) are located in the central areas of Barcelona. The assumption is that with more availability, employees will have a wider range of options and therefore the ability to make the best possible choices. The top 5 best performing neighbourhoods are the following:
+
+![Dataframe](images/top_loc_df.png)
+
+The following map shows the centroid of the top 5 best performing neighbourhoods.  
+
+![Folium Map 2](images/Top_Locations.png)
+<br>
+
+## Conclusion
+
+The neighbourhood that adapts more to the requirements is Vila de Gràcia. This is a centric neighbourhood that has the highest availability of points of interest within walking distance. Of course, the assumption can be challenged that just the density of points is the most relevant metric. 
+
+
+
+
