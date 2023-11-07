@@ -39,7 +39,7 @@ Workflow:
 
 The following map shows all the neighbourhoods in Barcelona based on the availability of points of interest. 
 
-![Folium Map](images/Choropleth.png)
+![Folium Map](images/Choropleth_BCN.png)
 
 We can observe that the darker areas (the ones with most availability) are located in the central areas of Barcelona. The assumption is that with more availability, employees will have a wider range of options and therefore the ability to make the best possible choices. The top 5 best performing neighbourhoods are the following:
 
